@@ -1,0 +1,39 @@
+/* FirmCollection.css */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 16px;
+}
+.firm-item{
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.firm-image{
+    height: 200px;
+    padding: 16px;
+}
+
+.firm-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.grid-container{
+    position:absolute;
+    left:100px;
+    
+    right:100px;
+}
+
+ p{
+    line-height: 4px;
+    padding-left:20px;
+}
+p:nth-child(1){
+    
+    font-weight:bold;
+}

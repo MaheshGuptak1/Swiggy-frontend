@@ -1,0 +1,42 @@
+.slider{
+     overflow-x: scroll;
+    scroll-behavior: smooth; 
+    margin-top:130px;
+    height: 250px;
+    display: flex;
+    gap:20px;
+    flex-direction: row;
+    scrollbar-width: none; /* For hiding scrool bar */
+    width: 83vw;
+    margin-bottom: 130px;
+  }
+  .image img{
+    width: 100%;
+    height: 100%;
+  }
+  .image{
+    flex-shrink: 0;
+    height: 250px;
+    width: 400px;
+  /* border:3px solid red; */
+  }
+  
+  .fa-arrow-left,
+  .fa-arrow-right {
+      cursor: pointer;
+      font-size: 2rem;
+      margin: 0 20px;
+      position: absolute;
+  }
+  
+  .fa-arrow-left{
+    left:70px;
+  }
+  .fa-arrow-right {
+    right:70px;
+    top:0px;
+  }
+  
+  .main{
+    position: relative;
+  }
